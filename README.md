@@ -42,7 +42,7 @@ table "genres"
 
 table "songs"
   string   "name"
-  integer  "artist_id"
+  integer  "artist"
   integer  "genre_id"
 ```
 
